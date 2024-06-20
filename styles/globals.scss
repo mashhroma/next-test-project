@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: darkblue;
+  color: antiquewhite;
+  text-align: center;
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.content {
+  padding: 24px 3vh;
+  background-color: rgb(111, 104, 252);
+  color: #fff;
+  flex: 1;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    padding-left: 18px;
+    list-style-type: square;
+
+    li {
+      font-size: 18px;
+      padding-top: 12px;
+      padding-left: 12px;
+    }
+  }
+}
